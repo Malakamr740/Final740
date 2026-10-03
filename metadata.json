@@ -1,0 +1,8 @@
+{
+  "name": "Math Diagnostic Platform",
+  "description": "Standardized mathematics diagnostic testing platform featuring adaptive domain mastery analysis, behavioral pacing insights, three-state question classification, levels management, and automated report generation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

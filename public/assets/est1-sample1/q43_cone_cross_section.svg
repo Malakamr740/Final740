@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 360" width="100%" height="100%">
+  <rect width="400" height="360" fill="#ffffff"/>
+
+  <!-- Cone Base Ellipse (center 200, 270; rx=90, ry=25) -->
+  <!-- Top arc dashed -->
+  <path d="M 110 270 A 90 25 0 0 1 290 270" fill="none" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <!-- Bottom arc solid -->
+  <path d="M 110 270 A 90 25 0 0 0 290 270" fill="none" stroke="#0f172a" stroke-width="2"/>
+
+  <!-- Shaded Cross Section Triangle (Apex: 200, 50; Base: 140, 270 to 260, 270) -->
+  <polygon points="200,50 140,270 260,270" fill="#bae6fd" fill-opacity="0.7" stroke="#0284c7" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Cone Outline (Slant sides from Apex 200, 50 to extreme points of base 110, 270 and 290, 270) -->
+  <line x1="200" y1="50" x2="110" y2="270" stroke="#0f172a" stroke-width="2"/>
+  <line x1="200" y1="50" x2="290" y2="270" stroke="#0f172a" stroke-width="2"/>
+
+  <!-- Cone Axis / Altitude (dashed) -->
+  <line x1="200" y1="50" x2="200" y2="270" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="4,4"/>
+
+  <!-- Right angle mark at center of base -->
+  <polyline points="200,260 210,260 210,270" fill="none" stroke="#0f172a" stroke-width="1.2"/>
+
+  <!-- Diameter label at base: 6 -->
+  <line x1="140" y1="285" x2="260" y2="285" stroke="#0f172a" stroke-width="1.5"/>
+  <line x1="140" y1="280" x2="140" y2="290" stroke="#0f172a" stroke-width="1.5"/>
+  <line x1="260" y1="280" x2="260" y2="290" stroke="#0f172a" stroke-width="1.5"/>
+  <text x="200" y="302" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a" text-anchor="middle">6</text>
+
+  <!-- Slant height label: 9 -->
+  <text x="260" y="145" font-family="sans-serif" font-size="15" font-weight="bold" fill="#0f172a">9</text>
+
+  <text x="200" y="340" font-family="sans-serif" font-size="12" font-style="italic" fill="#64748b" text-anchor="middle">
+    (Figure not drawn to scale)
+  </text>
+</svg>

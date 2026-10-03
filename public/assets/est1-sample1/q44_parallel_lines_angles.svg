@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 240" width="100%" height="100%">
+  <rect width="500" height="240" fill="#ffffff"/>
+
+  <!-- Parallel Lines d1 and d2 -->
+  <line x1="50" y1="70" x2="440" y2="70" stroke="#0f172a" stroke-width="2.5"/>
+  <text x="448" y="75" font-family="sans-serif" font-size="15" font-weight="bold" font-style="italic" fill="#0f172a">d₁</text>
+
+  <line x1="50" y1="180" x2="440" y2="180" stroke="#0f172a" stroke-width="2.5"/>
+  <text x="448" y="185" font-family="sans-serif" font-size="15" font-weight="bold" font-style="italic" fill="#0f172a">d₂</text>
+
+  <!-- Transversal 1: from (150, 180) to (310, 70) -->
+  <line x1="150" y1="180" x2="310" y2="70" stroke="#0f172a" stroke-width="2"/>
+
+  <!-- Transversal 2: from (190, 70) to (290, 180) -->
+  <line x1="190" y1="70" x2="290" y2="180" stroke="#0f172a" stroke-width="2"/>
+
+  <!-- Intersection point is around (237, 120) -->
+
+  <!-- Angle x° at top line d1 and transversal from (190, 70) -->
+  <path d="M 210 70 A 20 20 0 0 1 200 81" fill="none" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="202" y="65" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">x°</text>
+
+  <!-- Angle y° at intersection -->
+  <path d="M 230 115 A 15 15 0 0 0 242 126" fill="none" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="218" y="125" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">y°</text>
+
+  <!-- Angle z° at bottom line d2 and transversal from (150, 180) -->
+  <path d="M 175 180 A 25 25 0 0 0 166 169" fill="none" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="180" y="196" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">z°</text>
+</svg>

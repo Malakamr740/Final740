@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 380" width="100%" height="100%">
+  <rect width="540" height="380" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="270" y="30" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a" text-anchor="middle">
+    Number of push-ups
+  </text>
+
+  <!-- Y-axis bounds: 0 to 70 (0=300px, 70=60px). dy = 240px / 70 = ~3.43px per unit -->
+  <!-- 0: 300, 10: 265.7, 20: 231.4, 30: 197.1, 40: 162.9, 50: 128.6, 60: 94.3, 70: 60 -->
+
+  <!-- X coordinates for days:
+       Monday: 110
+       Tuesday: 165
+       Wednesday: 220
+       Thursday: 275
+       Friday: 330
+       Saturday: 385
+       Sunday: 440
+  -->
+
+  <!-- Grid Lines -->
+  <!-- Horizontal grid lines -->
+  <g stroke="#e2e8f0" stroke-width="1">
+    <line x1="80" y1="60" x2="470" y2="60"/>
+    <line x1="80" y1="94.3" x2="470" y2="94.3"/>
+    <line x1="80" y1="128.6" x2="470" y2="128.6"/>
+    <line x1="80" y1="162.9" x2="470" y2="162.9"/>
+    <line x1="80" y1="197.1" x2="470" y2="197.1"/>
+    <line x1="80" y1="231.4" x2="470" y2="231.4"/>
+    <line x1="80" y1="265.7" x2="470" y2="265.7"/>
+    <line x1="80" y1="300" x2="470" y2="300"/>
+
+    <!-- Vertical grid lines -->
+    <line x1="110" y1="60" x2="110" y2="300"/>
+    <line x1="165" y1="60" x2="165" y2="300"/>
+    <line x1="220" y1="60" x2="220" y2="300"/>
+    <line x1="275" y1="60" x2="275" y2="300"/>
+    <line x1="330" y1="60" x2="330" y2="300"/>
+    <line x1="385" y1="60" x2="385" y2="300"/>
+    <line x1="440" y1="60" x2="440" y2="300"/>
+  </g>
+
+  <!-- Y-axis line & arrow -->
+  <line x1="80" y1="45" x2="80" y2="300" stroke="#0f172a" stroke-width="2"/>
+  <polygon points="80,40 76,52 84,52" fill="#0f172a"/>
+
+  <!-- X-axis line & arrow -->
+  <line x1="80" y1="300" x2="480" y2="300" stroke="#0f172a" stroke-width="2"/>
+
+  <!-- Y labels -->
+  <g font-family="sans-serif" font-size="11" fill="#475569" text-anchor="end">
+    <text x="74" y="64">70</text>
+    <text x="74" y="98">60</text>
+    <text x="74" y="132">50</text>
+    <text x="74" y="166">40</text>
+    <text x="74" y="201">30</text>
+    <text x="74" y="235">20</text>
+    <text x="74" y="269">10</text>
+    <text x="74" y="304">0</text>
+  </g>
+
+  <!-- Line connecting points:
+       Mon(110, 231.4), Tue(165, 248.6), Wed(220, 197.1), Thu(275, 231.4), Fri(330, 265.7), Sat(385, 111.4), Sun(440, 94.3)
+  -->
+  <polyline
+    points="110,231.4 165,248.6 220,197.1 275,231.4 330,265.7 385,111.4 440,94.3"
+    fill="none"
+    stroke="#2563eb"
+    stroke-width="2.5"
+  />
+
+  <!-- Point dots and value labels -->
+  <!-- Mon: 20 -->
+  <circle cx="110" cy="231.4" r="4.5" fill="#2563eb"/>
+  <text x="100" y="222" font-family="sans-serif" font-size="12" font-weight="bold" fill="#0f172a">20</text>
+
+  <!-- Tue: 15 -->
+  <circle cx="165" cy="248.6" r="4.5" fill="#2563eb"/>
+  <text x="172" y="244" font-family="sans-serif" font-size="12" font-weight="bold" fill="#0f172a">15</text>
+
+  <!-- Wed: 30 -->
+  <circle cx="220" cy="197.1" r="4.5" fill="#2563eb"/>
+  <text x="220" y="185" font-family="sans-serif" font-size="12" font-weight="bold" fill="#0f172a" text-anchor="middle">30</text>
+
+  <!-- Thu: 20 -->
+  <circle cx="275" cy="231.4" r="4.5" fill="#2563eb"/>
+  <text x="275" y="222" font-family="sans-serif" font-size="12" font-weight="bold" fill="#0f172a" text-anchor="middle">20</text>
+
+  <!-- Fri: 10 -->
+  <circle cx="330" cy="265.7" r="4.5" fill="#2563eb"/>
+  <text x="330" y="255" font-family="sans-serif" font-size="12" font-weight="bold" fill="#0f172a" text-anchor="middle">10</text>
+
+  <!-- Sat: 55 -->
+  <circle cx="385" cy="111.4" r="4.5" fill="#2563eb"/>
+  <text x="375" y="105" font-family="sans-serif" font-size="12" font-weight="bold" fill="#0f172a">55</text>
+
+  <!-- Sun: 60 -->
+  <circle cx="440" cy="94.3" r="4.5" fill="#2563eb"/>
+  <text x="448" y="90" font-family="sans-serif" font-size="12" font-weight="bold" fill="#0f172a">60</text>
+
+  <!-- Day Labels (rotated) -->
+  <g font-family="sans-serif" font-size="11" font-weight="600" fill="#1e293b" text-anchor="end">
+    <text x="110" y="320" transform="rotate(-40 110 320)">Monday</text>
+    <text x="165" y="320" transform="rotate(-40 165 320)">Tuesday</text>
+    <text x="220" y="320" transform="rotate(-40 220 320)">Wednesday</text>
+    <text x="275" y="320" transform="rotate(-40 275 320)">Thursday</text>
+    <text x="330" y="320" transform="rotate(-40 330 320)">Friday</text>
+    <text x="385" y="320" transform="rotate(-40 385 320)">Saturday</text>
+    <text x="440" y="320" transform="rotate(-40 440 320)">Sunday</text>
+  </g>
+</svg>

@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 400" width="100%" height="100%">
+  <rect width="620" height="400" fill="#ffffff"/>
+
+  <!-- Title and Y-axis Label -->
+  <text x="35" y="190" font-family="sans-serif" font-size="13" font-weight="bold" fill="#0f172a" transform="rotate(-90 35 190)" text-anchor="middle">
+    Average Hours Used Per Day
+  </text>
+
+  <!-- Grid Lines and Y-axis marks -->
+  <!-- Base y = 310 corresponds to 0 -->
+  <!-- 5 -> 270, 10 -> 230, 15 -> 190, 20 -> 150, 25 -> 110, 30 -> 70 -->
+  <!-- Height scale: 8px per hour -->
+  <g stroke="#e2e8f0" stroke-width="1">
+    <line x1="80" y1="70" x2="570" y2="70"/>
+    <line x1="80" y1="110" x2="570" y2="110"/>
+    <line x1="80" y1="150" x2="570" y2="150"/>
+    <line x1="80" y1="190" x2="570" y2="190"/>
+    <line x1="80" y1="230" x2="570" y2="230"/>
+    <line x1="80" y1="270" x2="570" y2="270"/>
+    <line x1="80" y1="310" x2="570" y2="310"/>
+  </g>
+
+  <!-- Y labels -->
+  <g font-family="sans-serif" font-size="12" fill="#475569" text-anchor="end">
+    <text x="72" y="74">30</text>
+    <text x="72" y="114">25</text>
+    <text x="72" y="154">20</text>
+    <text x="72" y="194">15</text>
+    <text x="72" y="234">10</text>
+    <text x="72" y="274">5</text>
+    <text x="72" y="314">0</text>
+  </g>
+
+  <!-- Y axis line -->
+  <line x1="80" y1="50" x2="80" y2="310" stroke="#0f172a" stroke-width="2"/>
+  <polygon points="80,45 76,57 84,57" fill="#0f172a"/>
+
+  <!-- X axis line -->
+  <line x1="80" y1="310" x2="580" y2="310" stroke="#0f172a" stroke-width="2"/>
+
+  <!-- Bars Data: (width=16, gap between bars=4, cluster width=36) -->
+  <!-- Categories centered around:
+       TV: x = 120 (Weekday: 104, Weekend: 120)
+       Heater: x = 185 (Weekday: 169, Weekend: 185)
+       Lights: x = 250 (Weekday: 234, Weekend: 250)
+       Computer: x = 315 (Weekday: 299, Weekend: 315)
+       Washer: x = 380 (Weekday: 364, Weekend: 380)
+       Fridge: x = 445 (Weekday: 429, Weekend: 445)
+       Others: x = 510 (Weekday: 494, Weekend: 510)
+  -->
+
+  <!-- TV: Weekday=12 (h=96, y=214), Weekend=16 (h=128, y=182) -->
+  <rect x="104" y="214" width="16" height="96" fill="#4ade80" stroke="#16a34a" stroke-width="1"/>
+  <rect x="120" y="182" width="16" height="128" fill="#38bdf8" stroke="#0284c7" stroke-width="1"/>
+
+  <!-- Heater: Weekday=6 (h=48, y=262), Weekend=9 (h=72, y=238) -->
+  <rect x="169" y="262" width="16" height="48" fill="#4ade80" stroke="#16a34a" stroke-width="1"/>
+  <rect x="185" y="238" width="16" height="72" fill="#38bdf8" stroke="#0284c7" stroke-width="1"/>
+
+  <!-- Lights: Weekday=14 (h=112, y=198), Weekend=16 (h=128, y=182) -->
+  <rect x="234" y="198" width="16" height="112" fill="#4ade80" stroke="#16a34a" stroke-width="1"/>
+  <rect x="250" y="182" width="16" height="128" fill="#38bdf8" stroke="#0284c7" stroke-width="1"/>
+
+  <!-- Computer: Weekday=10 (h=80, y=230), Weekend=6 (h=48, y=262) -->
+  <rect x="299" y="230" width="16" height="80" fill="#4ade80" stroke="#16a34a" stroke-width="1"/>
+  <rect x="315" y="262" width="16" height="48" fill="#38bdf8" stroke="#0284c7" stroke-width="1"/>
+
+  <!-- Washer: Weekday=5 (h=40, y=270), Weekend=7 (h=56, y=254) -->
+  <rect x="364" y="270" width="16" height="40" fill="#4ade80" stroke="#16a34a" stroke-width="1"/>
+  <rect x="380" y="254" width="16" height="56" fill="#38bdf8" stroke="#0284c7" stroke-width="1"/>
+
+  <!-- Fridge: Weekday=24 (h=192, y=118), Weekend=24 (h=192, y=118) -->
+  <rect x="429" y="118" width="16" height="192" fill="#4ade80" stroke="#16a34a" stroke-width="1"/>
+  <rect x="445" y="118" width="16" height="192" fill="#38bdf8" stroke="#0284c7" stroke-width="1"/>
+
+  <!-- Others: Weekday=3 (h=24, y=286), Weekend=5 (h=40, y=270) -->
+  <rect x="494" y="286" width="16" height="24" fill="#4ade80" stroke="#16a34a" stroke-width="1"/>
+  <rect x="510" y="270" width="16" height="40" fill="#38bdf8" stroke="#0284c7" stroke-width="1"/>
+
+  <!-- X Labels (rotated slightly) -->
+  <g font-family="sans-serif" font-size="11" font-weight="600" fill="#1e293b" text-anchor="end">
+    <text x="124" y="328" transform="rotate(-35 124 328)">TV</text>
+    <text x="189" y="328" transform="rotate(-35 189 328)">Heater</text>
+    <text x="254" y="328" transform="rotate(-35 254 328)">Lights</text>
+    <text x="319" y="328" transform="rotate(-35 319 328)">Computer</text>
+    <text x="384" y="328" transform="rotate(-35 384 328)">Washer</text>
+    <text x="449" y="328" transform="rotate(-35 449 328)">Fridge</text>
+    <text x="514" y="328" transform="rotate(-35 514 328)">Others</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(220, 375)">
+    <rect x="0" y="0" width="14" height="14" fill="#4ade80" stroke="#16a34a"/>
+    <text x="20" y="12" font-family="sans-serif" font-size="12" font-weight="600" fill="#0f172a">Weekday</text>
+
+    <rect x="95" y="0" width="14" height="14" fill="#38bdf8" stroke="#0284c7"/>
+    <text x="115" y="12" font-family="sans-serif" font-size="12" font-weight="600" fill="#0f172a">Weekend</text>
+  </g>
+</svg>

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 420" width="100%" height="100%">
+  <rect width="460" height="420" fill="#ffffff"/>
+
+  <!-- Y-axis Label -->
+  <text x="35" y="195" font-family="sans-serif" font-size="13" font-weight="bold" fill="#0f172a" transform="rotate(-90 35 195)" text-anchor="middle">
+    Exam Scores
+  </text>
+
+  <!-- X-axis Label -->
+  <text x="260" y="395" font-family="sans-serif" font-size="13" font-weight="bold" fill="#0f172a" text-anchor="middle">
+    Number of Absences
+  </text>
+
+  <!-- Grid bounds: x from 90 to 410 (dx = 32px per unit: 0=90, 1=122, 2=154, 3=186, 4=218, 5=250, 6=282, 7=314, 8=346, 9=378, 10=410) -->
+  <!-- y from 50 (350px) to 100 (50px): dy = 6px per score point. 50=350, 60=290, 70=230, 80=170, 90=110, 100=50 -->
+
+  <!-- Vertical Grid Lines (0 to 10) -->
+  <g stroke="#cbd5e1" stroke-width="1">
+    <line x1="90" y1="50" x2="90" y2="350"/>
+    <line x1="122" y1="50" x2="122" y2="350"/>
+    <line x1="154" y1="50" x2="154" y2="350"/>
+    <line x1="186" y1="50" x2="186" y2="350"/>
+    <line x1="218" y1="50" x2="218" y2="350"/>
+    <line x1="250" y1="50" x2="250" y2="350"/>
+    <line x1="282" y1="50" x2="282" y2="350"/>
+    <line x1="314" y1="50" x2="314" y2="350"/>
+    <line x1="346" y1="50" x2="346" y2="350"/>
+    <line x1="378" y1="50" x2="378" y2="350"/>
+    <line x1="410" y1="50" x2="410" y2="350"/>
+  </g>
+
+  <!-- Horizontal Grid Lines (50 to 100) -->
+  <g stroke="#cbd5e1" stroke-width="1">
+    <line x1="90" y1="50" x2="410" y2="50"/>
+    <line x1="90" y1="110" x2="410" y2="110"/>
+    <line x1="90" y1="170" x2="410" y2="170"/>
+    <line x1="90" y1="230" x2="410" y2="230"/>
+    <line x1="90" y1="290" x2="410" y2="290"/>
+    <line x1="90" y1="350" x2="410" y2="350"/>
+  </g>
+
+  <!-- Y-axis Arrow & Line -->
+  <line x1="90" y1="35" x2="90" y2="350" stroke="#0f172a" stroke-width="2"/>
+  <polygon points="90,28 86,40 94,40" fill="#0f172a"/>
+
+  <!-- X-axis Arrow & Line -->
+  <line x1="90" y1="350" x2="425" y2="350" stroke="#0f172a" stroke-width="2"/>
+  <polygon points="430,350 418,346 418,354" fill="#0f172a"/>
+
+  <!-- Y Labels -->
+  <g font-family="sans-serif" font-size="12" fill="#1e293b" text-anchor="end">
+    <text x="82" y="54">100</text>
+    <text x="82" y="114">90</text>
+    <text x="82" y="174">80</text>
+    <text x="82" y="234">70</text>
+    <text x="82" y="294">60</text>
+    <text x="82" y="354">50</text>
+  </g>
+
+  <!-- X Labels -->
+  <g font-family="sans-serif" font-size="12" fill="#1e293b" text-anchor="middle">
+    <text x="90" y="368">0</text>
+    <text x="250" y="368">5</text>
+    <text x="410" y="368">10</text>
+  </g>
+
+  <!-- Scatter Points (circles) -->
+  <!-- (1, 100) -> (122, 50) -->
+  <circle cx="122" cy="50" r="5" fill="#0f172a"/>
+  <!-- (2, 90) -> (154, 110) -->
+  <circle cx="154" cy="110" r="5" fill="#0f172a"/>
+  <!-- (2, 85) -> (154, 140) -->
+  <circle cx="154" cy="140" r="5" fill="#0f172a"/>
+  <!-- (3, 90) -> (186, 110) -->
+  <circle cx="186" cy="110" r="5" fill="#0f172a"/>
+  <!-- (4, 80) -> (218, 170) -->
+  <circle cx="218" cy="170" r="5" fill="#0f172a"/>
+  <!-- (5, 85) -> (250, 140) -->
+  <circle cx="250" cy="140" r="5" fill="#0f172a"/>
+  <!-- (7, 65) -> (314, 260) -->
+  <circle cx="314" cy="260" r="5" fill="#0f172a"/>
+  <!-- (8, 80) -> (346, 170) -->
+  <circle cx="346" cy="170" r="5" fill="#0f172a"/>
+  <!-- (8, 70) -> (346, 230) -->
+  <circle cx="346" cy="230" r="5" fill="#0f172a"/>
+  <!-- (9, 65) -> (378, 260) -->
+  <circle cx="378" cy="260" r="5" fill="#0f172a"/>
+  <!-- (10, 70) -> (410, 230) -->
+  <circle cx="410" cy="230" r="5" fill="#0f172a"/>
+  <!-- (10, 60) -> (410, 290) -->
+  <circle cx="410" cy="290" r="5" fill="#0f172a"/>
+</svg>

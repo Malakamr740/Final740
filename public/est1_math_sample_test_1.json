@@ -1,0 +1,2438 @@
+[
+  {
+    "id": "est1-sample1-q01",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Algebra & Functions",
+    "category": "Foundational Algebra",
+    "chapter": "Linear Equations & Systems",
+    "lesson": "Single-Variable Linear Equations",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 60,
+    "prompt": "If $2x - 2 = 3x$, what is the value of $x + 2$?",
+    "question": "If $2x - 2 = 3x$, what is the value of $x + 2$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "-4",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. Arithmetic error."
+      },
+      {
+        "id": "B",
+        "text": "-2",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. This is the value of x, not x + 2."
+      },
+      {
+        "id": "C",
+        "text": "0",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! $2x - 2 = 3x \\implies x = -2$. Then $x + 2 = -2 + 2 = 0$."
+      },
+      {
+        "id": "D",
+        "text": "2",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. Result if x = 0."
+      }
+    ],
+    "explanation": "Solve for $x$:\n$$2x - 2 = 3x \\implies x = -2$$\nThen:\n$$x + 2 = -2 + 2 = 0$$\nTherefore, the correct choice is C."
+  },
+  {
+    "id": "est1-sample1-q02",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Algebra & Functions",
+    "category": "Foundational Algebra",
+    "chapter": "Linear Equations & Systems",
+    "lesson": "Single-Variable Linear Equations",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 60,
+    "prompt": "If $\\frac{x}{3} = 3$ and $2y = 8$, what is the value of $\\frac{x}{y}$?",
+    "question": "If $\\frac{x}{3} = 3$ and $2y = 8$, what is the value of $\\frac{x}{y}$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "\\frac{4}{9}",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. Reciprocal y/x."
+      },
+      {
+        "id": "B",
+        "text": "\\frac{9}{4}",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! $x = 9$ and $y = 4 \\implies \\frac{x}{y} = \\frac{9}{4}$."
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "6",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "explanation": "From $\\frac{x}{3} = 3$, multiplying both sides by 3 gives $x = 9$.\nFrom $2y = 8$, dividing both sides by 2 gives $y = 4$.\nThus, $\\frac{x}{y} = \\frac{9}{4}$. Correct choice is B."
+  },
+  {
+    "id": "est1-sample1-q03",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Algebra & Functions",
+    "category": "Foundational Algebra",
+    "chapter": "Linear Equations & Systems",
+    "lesson": "Single-Variable Linear Equations",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 75,
+    "prompt": "Tala spent $120 on a shopping spree. She bought a pair of pants for $50 and three identical t-shirts. Which of the following equations represents the scenario above, where $t$ is the price of one t-shirt?",
+    "question": "Tala spent $120 on a shopping spree. She bought a pair of pants for $50 and three identical t-shirts. Which of the following equations represents the scenario above, where $t$ is the price of one t-shirt?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "3t - 50 = 120",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "B",
+        "text": "50t + 3 = 120",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "t + 50 = 120",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "3t + 50 = 120",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! Total price equals $50 (pants) plus $3t (3 t-shirts) = 120."
+      }
+    ],
+    "explanation": "Total spent is $120. Tala purchased 1 pair of pants for $50 and 3 t-shirts costing $t$ each.\nThe linear equation is $3t + 50 = 120$. Correct choice is D."
+  },
+  {
+    "id": "est1-sample1-q04",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Algebra & Functions",
+    "category": "Foundational Algebra",
+    "chapter": "Linear Equations & Systems",
+    "lesson": "Interpreting Slope and Intercepts in Applied Models",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 60,
+    "prompt": "Which of the following lines is perpendicular to the line with equation $y = 3x - 2$?",
+    "question": "Which of the following lines is perpendicular to the line with equation $y = 3x - 2$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "y = 3x + 1",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. Parallel line (slope 3)."
+      },
+      {
+        "id": "B",
+        "text": "y = -\\frac{1}{3}x + 2",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! Perpendicular slope is $-1/3$."
+      },
+      {
+        "id": "C",
+        "text": "y = -3x - 2",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. Slope is -3."
+      },
+      {
+        "id": "D",
+        "text": "y = \\frac{1}{3}x + 5",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. Missing negative sign."
+      }
+    ],
+    "explanation": "The given line has slope $m_1 = 3$. Perpendicular lines have slopes that are negative reciprocals: $m_2 = -\\frac{1}{m_1} = -\\frac{1}{3}$. The line $y = -\\frac{1}{3}x + 2$ has slope $-\\frac{1}{3}$. Correct choice is B."
+  },
+  {
+    "id": "est1-sample1-q05",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Algebra & Functions",
+    "category": "Foundational Algebra",
+    "chapter": "Linear Equations & Systems",
+    "lesson": "Linear Inequalities & Shaded Coordinate Regions",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 90,
+    "prompt": "Given $y \\ge 3x - 1$ and $y \\le 3x + 1$, which of the following is true about this system?",
+    "question": "Given $y \\ge 3x - 1$ and $y \\le 3x + 1$, which of the following is true about this system?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "It has no solution.",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "B",
+        "text": "It has an infinite number of solutions.",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! The region between the two parallel lines contains infinitely many points."
+      },
+      {
+        "id": "C",
+        "text": "It has only one solution.",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "It has only two solutions.",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "explanation": "Both boundary lines $y = 3x - 1$ and $y = 3x + 1$ have the same slope 3 and are parallel. The region on/above $y = 3x - 1$ and on/below $y = 3x + 1$ forms a strip of the plane with an infinite number of solution points $(x, y)$. Correct choice is B."
+  },
+  {
+    "id": "est1-sample1-q06",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Algebra & Functions",
+    "category": "Foundational Algebra",
+    "chapter": "Linear Equations & Systems",
+    "lesson": "Linear Inequalities & Shaded Coordinate Regions",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 75,
+    "prompt": "Omar has $30 to spend on lunch for himself and his friends. He wants to buy sandwiches that cost $4.50 each and drinks that cost $1.50 each. If he buys 4 sandwiches, what is the maximum number of drinks he can buy?",
+    "question": "Omar has $30 to spend on lunch for himself and his friends. He wants to buy sandwiches that cost $4.50 each and drinks that cost $1.50 each. If he buys 4 sandwiches, what is the maximum number of drinks he can buy?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "6",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "B",
+        "text": "7",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "8",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! 4 sandwiches cost $18. $30 - $18 = $12. $12 / 1.50 = 8 drinks."
+      },
+      {
+        "id": "D",
+        "text": "9",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. 9 drinks would cost $13.50 + $18 = $31.50 > $30."
+      }
+    ],
+    "explanation": "The cost of 4 sandwiches is $4 \\times 4.50 = $18. The remaining budget is $30 - 18 = $12. The maximum number of drinks is $12 / 1.50 = 8$. Correct choice is C."
+  },
+  {
+    "id": "est1-sample1-q07",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Algebra & Functions",
+    "category": "Foundational Algebra",
+    "chapter": "Linear Equations & Systems",
+    "lesson": "Linear Inequalities & Shaded Coordinate Regions",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 90,
+    "prompt": "Which of the following inequalities corresponds to the shaded region in the figure above?",
+    "question": "Which of the following inequalities corresponds to the shaded region in the figure above?",
+    "imageUrl": "/assets/est1-sample1/q07_inequality_graph.svg",
+    "imageCaption": "Coordinate plane with shaded region above the solid boundary line",
+    "choices": [
+      {
+        "id": "A",
+        "text": "-y \\le \\frac{1}{2}x - 3",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "B",
+        "text": "-y \\le -\\frac{1}{2}x + 3",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! The boundary line is $y = \\frac{1}{2}x - 3$. Region above: $y \\ge \\frac{1}{2}x - 3 \\iff -y \\le -\\frac{1}{2}x + 3$."
+      },
+      {
+        "id": "C",
+        "text": "y \\le \\frac{1}{2}x - 3",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. Points below line."
+      },
+      {
+        "id": "D",
+        "text": "y \\ge -\\frac{1}{2}x + 3",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. Wrong slope."
+      }
+    ],
+    "explanation": "The solid line passes through $(0, -3)$ and $(6, 0)$ with slope $m = 1/2$. Boundary line equation is $y = \\frac{1}{2}x - 3$. The shaded region is above the line: $y \\ge \\frac{1}{2}x - 3$. Multiplying by $-1$ reverses the inequality: $-y \\le -\\frac{1}{2}x + 3$. Correct choice is B."
+  },
+  {
+    "id": "est1-sample1-q08",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Algebra & Functions",
+    "category": "Advanced Algebra and Functions",
+    "chapter": "Quadratic & Polynomial Equations",
+    "lesson": "Factoring Techniques & Root Finding",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 60,
+    "prompt": "If $f(x) = x^2 - 3x + 2$, what is the value of $f(-2)$?",
+    "question": "If $f(x) = x^2 - 3x + 2$, what is the value of $f(-2)$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "12",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! $f(-2) = (-2)^2 - 3(-2) + 2 = 4 + 6 + 2 = 12$."
+      },
+      {
+        "id": "B",
+        "text": "8",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "4",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "0",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "explanation": "Evaluate at $x = -2$:\n$$f(-2) = (-2)^2 - 3(-2) + 2 = 4 + 6 + 2 = 12$$\nCorrect choice is A."
+  },
+  {
+    "id": "est1-sample1-q09",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Algebra & Functions",
+    "category": "Advanced Algebra and Functions",
+    "chapter": "Quadratic & Polynomial Equations",
+    "lesson": "Vertex Form & Parabola Optimization",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 60,
+    "prompt": "What is the vertex of the parabola with equation $y = 2(x - 3)^2 + 5$?",
+    "question": "What is the vertex of the parabola with equation $y = 2(x - 3)^2 + 5$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "(-3, 5)",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "B",
+        "text": "(3, 5)",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! The vertex form is $y = a(x - h)^2 + k$, so vertex is $(h, k) = (3, 5)$."
+      },
+      {
+        "id": "C",
+        "text": "(3, -5)",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "(-3, -5)",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "explanation": "In vertex form $y = a(x - h)^2 + k$, the vertex is $(h, k)$. For $y = 2(x - 3)^2 + 5$, $h = 3$ and $k = 5$. Vertex is $(3, 5)$. Correct choice is B."
+  },
+  {
+    "id": "est1-sample1-q10",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Algebra & Functions",
+    "category": "Advanced Algebra and Functions",
+    "chapter": "Rational & Radical Equations",
+    "lesson": "Extraneous Solutions in Radical Equations",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 80,
+    "prompt": "What is the solution set of the equation $\\sqrt{2x + 3} = x$?",
+    "question": "What is the solution set of the equation $\\sqrt{2x + 3} = x$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "{-1, 3}",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. -1 is extraneous."
+      },
+      {
+        "id": "B",
+        "text": "{3}",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! Squaring yields $x^2 - 2x - 3 = 0$. Checking roots gives only $x = 3$ valid."
+      },
+      {
+        "id": "C",
+        "text": "{-1}",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "\\emptyset",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "explanation": "Squaring both sides: $2x + 3 = x^2 \\implies x^2 - 2x - 3 = 0 \\implies (x - 3)(x + 1) = 0$. Checking roots in original equation: for $x = -1$, $\\sqrt{1} = 1 \\ne -1$ (extraneous). For $x = 3$, $\\sqrt{9} = 3$ (valid). Solution set is {3}. Correct choice is B."
+  },
+  {
+    "id": "est1-sample1-q11",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Algebra & Functions",
+    "category": "Advanced Algebra and Functions",
+    "chapter": "Quadratic & Polynomial Equations",
+    "lesson": "Factoring Techniques & Root Finding",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 60,
+    "prompt": "If $x^2 - y^2 = 24$ and $x - y = 4$, what is the value of $x + y$?",
+    "question": "If $x^2 - y^2 = 24$ and $x - y = 4$, what is the value of $x + y$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "2",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "B",
+        "text": "4",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "5",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "6",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! $x^2 - y^2 = (x - y)(x + y) \\implies 24 = 4(x + y) \\implies x + y = 6$."
+      }
+    ],
+    "explanation": "Use the difference of squares identity:\n$$x^2 - y^2 = (x - y)(x + y)$$\nSubstitute $x^2 - y^2 = 24$ and $x - y = 4$:\n$$24 = 4(x + y) \\implies x + y = \\frac{24}{4} = 6$$\nCorrect choice is D."
+  },
+  {
+    "id": "est1-sample1-q12",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Algebra & Functions",
+    "category": "Advanced Algebra and Functions",
+    "chapter": "Rational & Radical Equations",
+    "lesson": "Operations with Rational Expressions",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 45,
+    "prompt": "Which of the following is equivalent to $\\frac{x^2 - 9}{x - 3}$ for all $x \\ne 3$?",
+    "question": "Which of the following is equivalent to $\\frac{x^2 - 9}{x - 3}$ for all $x \\ne 3$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "x - 3",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "B",
+        "text": "x - 9",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "x + 3",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! Factoring the numerator gives $(x - 3)(x + 3)/(x - 3) = x + 3$."
+      },
+      {
+        "id": "D",
+        "text": "x + 9",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "explanation": "Factor the difference of squares in the numerator:\n$$\\frac{x^2 - 9}{x - 3} = \\frac{(x - 3)(x + 3)}{x - 3} = x + 3$$\nCorrect choice is C."
+  },
+  {
+    "id": "est1-sample1-q13",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Algebra & Functions",
+    "category": "Advanced Algebra and Functions",
+    "chapter": "Quadratic & Polynomial Equations",
+    "lesson": "Factoring Techniques & Root Finding",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 60,
+    "prompt": "What are the zeros of the polynomial function $p(x) = x^3 - 4x$?",
+    "question": "What are the zeros of the polynomial function $p(x) = x^3 - 4x$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "{-2, 0, 2}",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! $x(x^2 - 4) = x(x - 2)(x + 2) = 0 \\implies x = 0, 2, -2$."
+      },
+      {
+        "id": "B",
+        "text": "{0, 4}",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "{-2, 2}",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. Misses zero at x = 0."
+      },
+      {
+        "id": "D",
+        "text": "{0, 2}",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. Misses root x = -2."
+      }
+    ],
+    "explanation": "Set $p(x) = 0$:\n$$x^3 - 4x = 0 \\implies x(x^2 - 4) = 0 \\implies x(x - 2)(x + 2) = 0$$\nThe zeros are $x = 0$, $x = 2$, and $x = -2$. The set of zeros is $\\{-2, 0, 2\\}$. Correct choice is A."
+  },
+  {
+    "id": "est1-sample1-q14",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Geometry & Measurement",
+    "category": "Geometry and Trigonometry",
+    "chapter": "Circles & Coordinate Geometry",
+    "lesson": "Standard Circle Equations in the Cartesian Plane",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 75,
+    "prompt": "A circle in the $xy$-plane has equation $(x - 2)^2 + (y + 1)^2 = 25$. Which of the following points lies on the circle?",
+    "question": "A circle in the $xy$-plane has equation $(x - 2)^2 + (y + 1)^2 = 25$. Which of the following points lies on the circle?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "(2, 3)",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. $(2-2)^2 + (3+1)^2 = 16 \\ne 25$."
+      },
+      {
+        "id": "B",
+        "text": "(5, 4)",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. $(5-2)^2 + (4+1)^2 = 9 + 25 = 34 \\ne 25$."
+      },
+      {
+        "id": "C",
+        "text": "(-1, 3)",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! $(-1 - 2)^2 + (3 + 1)^2 = (-3)^2 + 4^2 = 9 + 16 = 25$."
+      },
+      {
+        "id": "D",
+        "text": "(0, 0)",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. $(0-2)^2 + (0+1)^2 = 5 \\ne 25$."
+      }
+    ],
+    "explanation": "Substitute $(-1, 3)$ into the equation:\n$$(-1 - 2)^2 + (3 + 1)^2 = (-3)^2 + 4^2 = 9 + 16 = 25$$\nSince the equation holds true, $(-1, 3)$ lies on the circle. Correct choice is C."
+  },
+  {
+    "id": "est1-sample1-q15",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Geometry & Measurement",
+    "category": "Geometry and Trigonometry",
+    "chapter": "Congruence, Similarity & Geometric Proofs",
+    "lesson": "Parallel Lines & Transversal Angle Theorems",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 90,
+    "prompt": "In the figure above, lines $d$ and $d'$ are parallel. If $\\angle b = 103^\\circ$, $\\angle c = 107^\\circ$, and $\\angle e = 97^\\circ$, what is the measure of $\\angle a$?",
+    "question": "In the figure above, lines $d$ and $d'$ are parallel. If $\\angle b = 103^\\circ$, $\\angle c = 107^\\circ$, and $\\angle e = 97^\\circ$, what is the measure of $\\angle a$?",
+    "imageUrl": "/assets/est1-sample1/q15_parallel_lines.svg",
+    "imageCaption": "Parallel lines d and d' intersected by transversals",
+    "choices": [
+      {
+        "id": "A",
+        "text": "67^\\circ",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! The supplement of e is 83°. Quadrilateral angle is $360 - 103 - 107 - 83 = 67^\\circ$. Alternate interior angle $a = 67^\\circ$."
+      },
+      {
+        "id": "B",
+        "text": "73^\\circ",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "77^\\circ",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "83^\\circ",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. 83° is the supplement of angle e."
+      }
+    ],
+    "explanation": "Let angle $k$ be the supplement of angle $e$ on line $d$:\n$$k = 180^\\circ - 97^\\circ = 83^\\circ$$\nIn the quadrilateral bounded by lines $d, d'$ and the two transversals, the sum of interior angles is $360^\\circ$:\n$$b + c + k + f = 360^\\circ$$\n$$103^\\circ + 107^\\circ + 83^\\circ + f = 360^\\circ \\implies 293^\\circ + f = 360^\\circ \\implies f = 67^\\circ$$\nSince lines $d$ and $d'$ are parallel, angle $a$ and angle $f$ are alternate interior angles, so $a = f = 67^\\circ$. Correct choice is A."
+  },
+  {
+    "id": "est1-sample1-q16",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Algebra & Functions",
+    "category": "Advanced Algebra and Functions",
+    "chapter": "Exponential & Logarithmic Functions",
+    "lesson": "Solving Exponential Equations",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 60,
+    "prompt": "If $2^{2x + 1} = 32$, what is the value of $x$?",
+    "question": "If $2^{2x + 1} = 32$, what is the value of $x$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "B",
+        "text": "\\frac{3}{2}",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! $32 = 2^5 \\implies 2x + 1 = 5 \\implies 2x = 4 \\implies x = 2$."
+      },
+      {
+        "id": "D",
+        "text": "\\frac{5}{2}",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "explanation": "Express 32 as a power of 2:\n$$2^{2x + 1} = 2^5$$\nSince the bases are equal, equate the exponents:\n$$2x + 1 = 5 \\implies 2x = 4 \\implies x = 2$$\nCorrect choice is C."
+  },
+  {
+    "id": "est1-sample1-q17",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Algebra & Functions",
+    "category": "Advanced Algebra and Functions",
+    "chapter": "Quadratic & Polynomial Equations",
+    "lesson": "Vertex Form & Parabola Optimization",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 100,
+    "prompt": "In the figure above, $ABCD$ is a square and points $A, B,$ and $O$ lie on the parabola of equation $y = \\frac{1}{k}x^2$, where $k$ is a constant number. If the area of $ABCD$ is $16\\text{ cm}^2$, what is the value of $k$?",
+    "question": "In the figure above, $ABCD$ is a square and points $A, B,$ and $O$ lie on the parabola of equation $y = \\frac{1}{k}x^2$, where $k$ is a constant number. If the area of $ABCD$ is $16\\text{ cm}^2$, what is the value of $k$?",
+    "imageUrl": "/assets/est1-sample1/q17_parabola_square.svg",
+    "imageCaption": "Square ABCD with vertices on parabola y = (1/k)x² and x-axis",
+    "choices": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! Side length of square is 4. By symmetry, $B = (2, 4)$. $4 = \\frac{1}{k}(2)^2 \\implies k = 1$."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "4",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "8",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "explanation": "The area of square $ABCD$ is $16\\text{ cm}^2$, so its side length is $\\sqrt{16} = 4\\text{ cm}$.\nVertices $D$ and $C$ lie on the $x$-axis, symmetric about the $y$-axis, so $C = (2, 0)$ and $D = (-2, 0)$.\nSince the vertical side has length 4, vertex $B$ has coordinates $(2, 4)$.\nSince point $B(2, 4)$ lies on the parabola $y = \\frac{1}{k}x^2$:\n$$4 = \\frac{1}{k}(2)^2 \\implies 4 = \\frac{4}{k} \\implies k = 1$$\nCorrect choice is A."
+  },
+  {
+    "id": "est1-sample1-q18",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Algebra & Functions",
+    "category": "Foundational Algebra",
+    "chapter": "Linear Equations & Systems",
+    "lesson": "Interpreting Slope and Intercepts in Applied Models",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 75,
+    "prompt": "The table below shows some values of $x$ and $y$ that have a linear relationship:\n\n| x | y |\n|---|---|\n| -4 | -9 |\n| 0 | -1 |\n| 2 | 3 |\n| p | 9 |\n\nWhat is the value of $p$?",
+    "question": "The table below shows some values of $x$ and $y$ that have a linear relationship:\n\n| x | y |\n|---|---|\n| -4 | -9 |\n| 0 | -1 |\n| 2 | 3 |\n| p | 9 |\n\nWhat is the value of $p$?",
+    "imageUrl": "/assets/est1-sample1/q18_table.svg",
+    "imageCaption": "Table of x and y values having a linear relationship",
+    "choices": [
+      {
+        "id": "A",
+        "text": "4",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "B",
+        "text": "5",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! Slope $m = \\frac{-1 - (-9)}{0 - (-4)} = 2$. Line is $y = 2x - 1$. For $y = 9$, $9 = 2p - 1 \\implies p = 5$."
+      },
+      {
+        "id": "C",
+        "text": "6",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "7",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "explanation": "Compute the slope using $(0, -1)$ and $(2, 3)$:\n$$m = \\frac{3 - (-1)}{2 - 0} = \\frac{4}{2} = 2$$\nThe $y$-intercept is $(0, -1)$, so the linear equation is $y = 2x - 1$.\nFor the point $(p, 9)$:\n$$9 = 2p - 1 \\implies 2p = 10 \\implies p = 5$$\nCorrect choice is B."
+  },
+  {
+    "id": "est1-sample1-q19",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Algebra & Functions",
+    "category": "Advanced Algebra and Functions",
+    "chapter": "Quadratic & Polynomial Equations",
+    "lesson": "Factoring Techniques & Root Finding",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 60,
+    "prompt": "If $f(x) = 2x - 1$ and $g(x) = x^2 + 3$, what is the value of $g(f(2))$?",
+    "question": "If $f(x) = 2x - 1$ and $g(x) = x^2 + 3$, what is the value of $g(f(2))$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "7",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "B",
+        "text": "9",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "11",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "12",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! $f(2) = 2(2) - 1 = 3$. Then $g(3) = 3^2 + 3 = 9 + 3 = 12$."
+      }
+    ],
+    "explanation": "Evaluate the inner function first:\n$$f(2) = 2(2) - 1 = 4 - 1 = 3$$\nNow evaluate the outer function:\n$$g(f(2)) = g(3) = 3^2 + 3 = 9 + 3 = 12$$\nCorrect choice is D."
+  },
+  {
+    "id": "est1-sample1-q20",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Algebra & Functions",
+    "category": "Foundational Algebra",
+    "chapter": "Linear Equations & Systems",
+    "lesson": "Linear Inequalities & Shaded Coordinate Regions",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 45,
+    "prompt": "Which of the following values of $x$ satisfies the inequality $-3x + 5 < -4$?",
+    "question": "Which of the following values of $x$ satisfies the inequality $-3x + 5 < -4$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "1",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "4",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! $-3x < -9 \\implies x > 3$. 4 is greater than 3."
+      },
+      {
+        "id": "D",
+        "text": "3",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. The inequality is strictly greater than 3, so 3 is not included."
+      }
+    ],
+    "explanation": "Subtract 5 from both sides:\n$$-3x < -9$$\nDivide by $-3$ and reverse the inequality sign:\n$$x > 3$$\nAmong the given choices, only $x = 4$ is strictly greater than 3. Correct choice is C."
+  },
+  {
+    "id": "est1-sample1-q21",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Algebra & Functions",
+    "category": "Foundational Algebra",
+    "chapter": "Linear Equations & Systems",
+    "lesson": "Single-Variable Linear Equations",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 60,
+    "prompt": "A car rental company charges a flat fee of $45 plus $0.25 per mile driven. If Liam rented a car and his total bill was $95, how many miles did he drive?",
+    "question": "A car rental company charges a flat fee of $45 plus $0.25 per mile driven. If Liam rented a car and his total bill was $95, how many miles did he drive?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "150",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "B",
+        "text": "180",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "200",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! $45 + 0.25m = 95 \\implies 0.25m = 50 \\implies m = 200$ miles."
+      },
+      {
+        "id": "D",
+        "text": "220",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "explanation": "Set up the linear equation for the total cost where $m$ is the miles driven:\n$$45 + 0.25m = 95$$\n$$0.25m = 50$$\n$$m = \\frac{50}{0.25} = 200$$\nLiam drove 200 miles. Correct choice is C."
+  },
+  {
+    "id": "est1-sample1-q22",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Algebra & Functions",
+    "category": "Foundational Algebra",
+    "chapter": "Linear Equations & Systems",
+    "lesson": "Interpreting Slope and Intercepts in Applied Models",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 45,
+    "prompt": "What is the slope of the line passing through the points $(-2, 3)$ and $(4, -1)$?",
+    "question": "What is the slope of the line passing through the points $(-2, 3)$ and $(4, -1)$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "\\frac{2}{3}",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect sign."
+      },
+      {
+        "id": "B",
+        "text": "-\\frac{3}{2}",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect reciprocal."
+      },
+      {
+        "id": "C",
+        "text": "\\frac{3}{2}",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "-\\frac{2}{3}",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! $m = \\frac{-1 - 3}{4 - (-2)} = \\frac{-4}{6} = -\\frac{2}{3}$."
+      }
+    ],
+    "explanation": "Use the slope formula $m = \\frac{y_2 - y_1}{x_2 - x_1}$:\n$$m = \\frac{-1 - 3}{4 - (-2)} = \\frac{-4}{6} = -\\frac{2}{3}$$\nCorrect choice is D."
+  },
+  {
+    "id": "est1-sample1-q23",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Algebra & Functions",
+    "category": "Foundational Algebra",
+    "chapter": "Linear Equations & Systems",
+    "lesson": "Single-Variable Linear Equations",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 60,
+    "prompt": "If $3(2x - 4) = 4(x + 1) - 2$, what is the value of $x$?",
+    "question": "If $3(2x - 4) = 4(x + 1) - 2$, what is the value of $x$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "5",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "B",
+        "text": "6",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "8",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "7",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! $6x - 12 = 4x + 2 \\implies 2x = 14 \\implies x = 7$."
+      }
+    ],
+    "explanation": "Expand both sides:\n$$6x - 12 = 4x + 4 - 2$$\n$$6x - 12 = 4x + 2$$\n$$6x - 4x = 12 + 2$$\n$$2x = 14 \\implies x = 7$$\nCorrect choice is D."
+  },
+  {
+    "id": "est1-sample1-q24",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Algebra & Functions",
+    "category": "Foundational Algebra",
+    "chapter": "Linear Equations & Systems",
+    "lesson": "Interpreting Slope and Intercepts in Applied Models",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 45,
+    "prompt": "Which of the following is the equation of a line with a slope of -2 and a $y$-intercept of $(0, 4)$?",
+    "question": "Which of the following is the equation of a line with a slope of -2 and a $y$-intercept of $(0, 4)$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "y = 2x + 4",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "B",
+        "text": "y = -2x - 4",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "y = -2x + 4",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! Slope-intercept form is $y = mx + b = -2x + 4$."
+      },
+      {
+        "id": "D",
+        "text": "y = 4x - 2",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "explanation": "In slope-intercept form $y = mx + b$, $m = -2$ and $b = 4$.\nThus, $y = -2x + 4$.\nCorrect choice is C."
+  },
+  {
+    "id": "est1-sample1-q25",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Algebra & Functions",
+    "category": "Foundational Algebra",
+    "chapter": "Linear Equations & Systems",
+    "lesson": "Single-Variable Linear Equations",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 60,
+    "prompt": "A store offers a 20% discount on a jacket. If the discounted price of the jacket is $64, what was the original price?",
+    "question": "A store offers a 20% discount on a jacket. If the discounted price of the jacket is $64, what was the original price?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$72",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "B",
+        "text": "$75",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "$78",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "$80",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! $P \\times (1 - 0.20) = 64 \\implies 0.80P = 64 \\implies P = 80$."
+      }
+    ],
+    "explanation": "A 20% discount means the customer pays $100\\% - 20\\% = 80\\%$ of the original price $P$:\n$$0.80P = 64$$\n$$P = \\frac{64}{0.80} = 80$$\nThe original price was $80. Correct choice is D."
+  },
+  {
+    "id": "est1-sample1-q26",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Algebra & Functions",
+    "category": "Foundational Algebra",
+    "chapter": "Linear Equations & Systems",
+    "lesson": "Systems of Linear Equations (2x2 & 3x3)",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 60,
+    "prompt": "If a system of linear equations has equations $2x - y = 5$ and $4x - 2y = 10$, how many solutions does the system have?",
+    "question": "If a system of linear equations has equations $2x - y = 5$ and $4x - 2y = 10$, how many solutions does the system have?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Exactly one solution",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "B",
+        "text": "Exactly two solutions",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "Infinitely many solutions",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! Multiplying $2x - y = 5$ by 2 yields $4x - 2y = 10$. The two equations represent the exact same line."
+      },
+      {
+        "id": "D",
+        "text": "No solution",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "explanation": "Divide the second equation by 2:\n$$\\frac{4x - 2y}{2} = \\frac{10}{2} \\implies 2x - y = 5$$\nBoth equations are identical and represent coincident lines. Therefore, there are infinitely many solutions. Correct choice is C."
+  },
+  {
+    "id": "est1-sample1-q27",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Statistics & Probability",
+    "category": "Data Analysis and Probability",
+    "chapter": "Probability Rules & Combinatorics",
+    "lesson": "Basic Probability & Complement Rule",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 45,
+    "prompt": "A bag contains 5 red marbles, 3 blue marbles, and 2 green marbles. If one marble is drawn at random, what is the probability that it is NOT blue?",
+    "question": "A bag contains 5 red marbles, 3 blue marbles, and 2 green marbles. If one marble is drawn at random, what is the probability that it is NOT blue?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "\\frac{3}{10}",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. This is the probability of drawing a blue marble."
+      },
+      {
+        "id": "B",
+        "text": "\\frac{1}{2}",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "\\frac{7}{10}",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! Total marbles = 10. Non-blue marbles = 5 + 2 = 7. Probability = 7/10."
+      },
+      {
+        "id": "D",
+        "text": "\\frac{4}{5}",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "explanation": "Total number of marbles = $5 + 3 + 2 = 10$.\nMarbles that are NOT blue = $5 \\text{ (red)} + 2 \\text{ (green)} = 7$.\n$$P(\\text{not blue}) = \\frac{7}{10}$$\nCorrect choice is C."
+  },
+  {
+    "id": "est1-sample1-q28",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Statistics & Probability",
+    "category": "Data Analysis and Probability",
+    "chapter": "Descriptive Statistics & Data Distributions",
+    "lesson": "Measures of Center (Mean, Median, Mode)",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 90,
+    "prompt": "A survey asked university students about their most important concern during the COVID-19 pandemic. The results are shown in the pie chart above. If the ratio of students concerned about Vaccinations to those concerned about the Economic crisis is $3:2$, what percentage of students selected Vaccinations?",
+    "question": "A survey asked university students about their most important concern during the COVID-19 pandemic. The results are shown in the pie chart above. If the ratio of students concerned about Vaccinations to those concerned about the Economic crisis is $3:2$, what percentage of students selected Vaccinations?",
+    "imageUrl": "/assets/est1-sample1/q28_concerns_pie_chart.svg",
+    "imageCaption": "Students' primary pandemic concern pie chart",
+    "choices": [
+      {
+        "id": "A",
+        "text": "8%",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. 8% is the percentage for Economic crisis."
+      },
+      {
+        "id": "B",
+        "text": "12%",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! Remaining percentage = $100\\% - (39 + 26 + 15)\\% = 20\\%$. Vaccinations = $\\frac{3}{3 + 2} \\times 20\\% = 12\\%$."
+      },
+      {
+        "id": "C",
+        "text": "15%",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "20%",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. 20% is the combined total for Vaccinations and Economic crisis."
+      }
+    ],
+    "explanation": "From the pie chart:\n- Health care: 39%\n- School education: 26%\n- University education: 15%\nSum of given slices = $39\\% + 26\\% + 15\\% = 80\\%$.\nRemaining percentage for Vaccinations and Economic crisis = $100\\% - 80\\% = 20\\%$.\nGiven ratio of Vaccinations to Economic crisis is $3:2$:\n$$\\text{Vaccinations} = \\frac{3}{3 + 2} \\times 20\\% = \\frac{3}{5} \\times 20\\% = 12\\%$$\nCorrect choice is B."
+  },
+  {
+    "id": "est1-sample1-q29",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Statistics & Probability",
+    "category": "Data Analysis and Probability",
+    "chapter": "Descriptive Statistics & Data Distributions",
+    "lesson": "Measures of Center (Mean, Median, Mode)",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 45,
+    "prompt": "Questions 29-32 refer to the grouped bar chart above displaying the average hours per day certain appliances are used.\n\nWhich appliance is used for the greatest number of hours per day on a weekday?",
+    "question": "Questions 29-32 refer to the grouped bar chart above displaying the average hours per day certain appliances are used.\n\nWhich appliance is used for the greatest number of hours per day on a weekday?",
+    "imageUrl": "/assets/est1-sample1/q29_32_appliance_usage_bar_chart.svg",
+    "imageCaption": "Average hours used per day for household appliances on weekdays and weekends",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Fridge",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! The Fridge has the tallest green weekday bar at 24 hours per day."
+      },
+      {
+        "id": "B",
+        "text": "TV",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. TV is 12 hours."
+      },
+      {
+        "id": "C",
+        "text": "Lights",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. Lights is 14 hours."
+      },
+      {
+        "id": "D",
+        "text": "Computer",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. Computer is 10 hours."
+      }
+    ],
+    "explanation": "Observing the weekday (green) bars for each appliance:\n- TV: 12 hours\n- Heater: 6 hours\n- Lights: 14 hours\n- Computer: 10 hours\n- Washer: 5 hours\n- Fridge: 24 hours\n- Others: 3 hours\nThe Fridge has the highest average weekday usage (24 hours). Correct choice is A."
+  },
+  {
+    "id": "est1-sample1-q30",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Statistics & Probability",
+    "category": "Data Analysis and Probability",
+    "chapter": "Descriptive Statistics & Data Distributions",
+    "lesson": "Measures of Center (Mean, Median, Mode)",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 45,
+    "prompt": "Questions 29-32 refer to the grouped bar chart above.\n\nFor which appliance is the average daily usage higher on weekdays than on weekends?",
+    "question": "Questions 29-32 refer to the grouped bar chart above.\n\nFor which appliance is the average daily usage higher on weekdays than on weekends?",
+    "imageUrl": "/assets/est1-sample1/q29_32_appliance_usage_bar_chart.svg",
+    "imageCaption": "Average hours used per day for household appliances on weekdays and weekends",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Computer",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! Computer weekday = 10 hrs > weekend = 6 hrs. For all other appliances, weekend is higher or equal."
+      },
+      {
+        "id": "B",
+        "text": "TV",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. TV weekend (16 hrs) > weekday (12 hrs)."
+      },
+      {
+        "id": "C",
+        "text": "Heater",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. Heater weekend (9 hrs) > weekday (6 hrs)."
+      },
+      {
+        "id": "D",
+        "text": "Lights",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. Lights weekend (16 hrs) > weekday (14 hrs)."
+      }
+    ],
+    "explanation": "Comparing weekday (green) vs weekend (blue) for each appliance:\n- TV: Weekday 12, Weekend 16 (Weekend > Weekday)\n- Heater: Weekday 6, Weekend 9 (Weekend > Weekday)\n- Lights: Weekday 14, Weekend 16 (Weekend > Weekday)\n- Computer: Weekday 10, Weekend 6 (Weekday > Weekend)\n- Washer: Weekday 5, Weekend 7 (Weekend > Weekday)\n- Fridge: Weekday 24, Weekend 24 (Equal)\nOnly the Computer is used more on weekdays than on weekends. Correct choice is A."
+  },
+  {
+    "id": "est1-sample1-q31",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Statistics & Probability",
+    "category": "Data Analysis and Probability",
+    "chapter": "Descriptive Statistics & Data Distributions",
+    "lesson": "Measures of Center (Mean, Median, Mode)",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 60,
+    "prompt": "Questions 29-32 refer to the grouped bar chart above.\n\nWhat is the total number of hours the TV is used over the entire week (5 weekdays and 2 weekend days)?",
+    "question": "Questions 29-32 refer to the grouped bar chart above.\n\nWhat is the total number of hours the TV is used over the entire week (5 weekdays and 2 weekend days)?",
+    "imageUrl": "/assets/est1-sample1/q29_32_appliance_usage_bar_chart.svg",
+    "imageCaption": "Average hours used per day for household appliances on weekdays and weekends",
+    "choices": [
+      {
+        "id": "A",
+        "text": "92 hours",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! $5 \\times 12 + 2 \\times 16 = 60 + 32 = 92$ hours."
+      },
+      {
+        "id": "B",
+        "text": "84 hours",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "96 hours",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "100 hours",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "explanation": "From the bar chart, TV usage is 12 hours per day on weekdays and 16 hours per day on weekends.\nFor 1 week:\n$$\\text{Total hours} = (5 \\times 12) + (2 \\times 16) = 60 + 32 = 92\\text{ hours}$$\nCorrect choice is A."
+  },
+  {
+    "id": "est1-sample1-q32",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Statistics & Probability",
+    "category": "Data Analysis and Probability",
+    "chapter": "Descriptive Statistics & Data Distributions",
+    "lesson": "Measures of Center (Mean, Median, Mode)",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 60,
+    "prompt": "Questions 29-32 refer to the grouped bar chart above.\n\nWhat is the percent increase in the average daily usage of the heater from a weekday to a weekend day?",
+    "question": "Questions 29-32 refer to the grouped bar chart above.\n\nWhat is the percent increase in the average daily usage of the heater from a weekday to a weekend day?",
+    "imageUrl": "/assets/est1-sample1/q29_32_appliance_usage_bar_chart.svg",
+    "imageCaption": "Average hours used per day for household appliances on weekdays and weekends",
+    "choices": [
+      {
+        "id": "A",
+        "text": "33.3%",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "B",
+        "text": "50%",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! $\\frac{9 - 6}{6} \\times 100\\% = \\frac{3}{6} \\times 100\\% = 50\\%$."
+      },
+      {
+        "id": "C",
+        "text": "66.7%",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "75%",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "explanation": "From the chart, heater usage is 6 hours on a weekday and 9 hours on a weekend day.\n$$\\text{Percent Increase} = \\frac{9 - 6}{6} \\times 100\\% = \\frac{3}{6} \\times 100\\% = 50\\%$$\nCorrect choice is B."
+  },
+  {
+    "id": "est1-sample1-q33",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Statistics & Probability",
+    "category": "Data Analysis and Probability",
+    "chapter": "Descriptive Statistics & Data Distributions",
+    "lesson": "Measures of Center (Mean, Median, Mode)",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 45,
+    "prompt": "The scores of a student on five quizzes are 78, 85, 92, 88, and 87. What is the mean score of the quizzes?",
+    "question": "The scores of a student on five quizzes are 78, 85, 92, 88, and 87. What is the mean score of the quizzes?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "86",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! $(78 + 85 + 92 + 88 + 87) / 5 = 430 / 5 = 86$."
+      },
+      {
+        "id": "B",
+        "text": "87",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. 87 is the median, not the mean."
+      },
+      {
+        "id": "C",
+        "text": "88",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "85",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "explanation": "The mean is the sum divided by the count:\n$$\\text{Mean} = \\frac{78 + 85 + 92 + 88 + 87}{5} = \\frac{430}{5} = 86$$\nCorrect choice is A."
+  },
+  {
+    "id": "est1-sample1-q34",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Statistics & Probability",
+    "category": "Data Analysis and Probability",
+    "chapter": "Descriptive Statistics & Data Distributions",
+    "lesson": "Measures of Center (Mean, Median, Mode)",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 60,
+    "prompt": "The median of a set of 7 consecutive integers is 14. What is the sum of the smallest and largest integers in this set?",
+    "question": "The median of a set of 7 consecutive integers is 14. What is the sum of the smallest and largest integers in this set?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "26",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "B",
+        "text": "27",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "30",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "28",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! The integers are 11, 12, 13, 14, 15, 16, 17. Smallest + largest = $11 + 17 = 28$ (or $2 \\times 14 = 28$)."
+      }
+    ],
+    "explanation": "In an odd number of consecutive integers, the median is the exact middle element. With 7 consecutive integers centered at 14, there are 3 integers below 14 and 3 above:\n$$\\{11, 12, 13, 14, 15, 16, 17\\}$$\nSmallest = 11, Largest = 17.\n$$\\text{Sum} = 11 + 17 = 28$$\nNotice also that the sum of symmetric elements around the median in an arithmetic progression is always $2 \\times \\text{median} = 2 \\times 14 = 28$. Correct choice is D."
+  },
+  {
+    "id": "est1-sample1-q35",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Statistics & Probability",
+    "category": "Data Analysis and Probability",
+    "chapter": "Probability Rules & Combinatorics",
+    "lesson": "Conditional Probability & Two-Way Contingency Tables",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 60,
+    "prompt": "A box contains 4 red balls and 6 black balls. Two balls are drawn at random without replacement. What is the probability that both balls drawn are red?",
+    "question": "A box contains 4 red balls and 6 black balls. Two balls are drawn at random without replacement. What is the probability that both balls drawn are red?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "\\frac{4}{25}",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. This assumes drawing with replacement."
+      },
+      {
+        "id": "B",
+        "text": "\\frac{1}{5}",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "\\frac{3}{10}",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "\\frac{2}{15}",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! $P = \\frac{4}{10} \\times \\frac{3}{9} = \\frac{2}{5} \\times \\frac{1}{3} = \\frac{2}{15}$."
+      }
+    ],
+    "explanation": "Total balls = $4 + 6 = 10$.\nProbability that the first ball is red is $\\frac{4}{10}$.\nWithout replacement, 3 red balls remain out of 9 total balls. Probability the second ball is red is $\\frac{3}{9} = \\frac{1}{3}$.\n$$P(\\text{both red}) = \\frac{4}{10} \\times \\frac{3}{9} = \\frac{2}{5} \\times \\frac{1}{3} = \\frac{2}{15}$$\nCorrect choice is D."
+  },
+  {
+    "id": "est1-sample1-q36",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Statistics & Probability",
+    "category": "Data Analysis and Probability",
+    "chapter": "Descriptive Statistics & Data Distributions",
+    "lesson": "Standard Deviation & Spread",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 45,
+    "prompt": "The standard deviation of a dataset measures which of the following characteristics?",
+    "question": "The standard deviation of a dataset measures which of the following characteristics?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The central tendency of the data",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. Central tendency is measured by mean, median, or mode."
+      },
+      {
+        "id": "B",
+        "text": "The spread or dispersion of the data around the mean",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! Standard deviation quantifies how spread out values are relative to the mean."
+      },
+      {
+        "id": "C",
+        "text": "The maximum value of the data",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "The frequency of the most common data value",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. Frequency of most common value relates to mode."
+      }
+    ],
+    "explanation": "Standard deviation is defined mathematically as the square root of variance, quantifying the average dispersion/spread of data points around the arithmetic mean. Correct choice is B."
+  },
+  {
+    "id": "est1-sample1-q37",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Statistics & Probability",
+    "category": "Data Analysis and Probability",
+    "chapter": "Descriptive Statistics & Data Distributions",
+    "lesson": "Measures of Center (Mean, Median, Mode)",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 90,
+    "prompt": "The scatterplot above shows the relationship between the number of absences and the final exam scores for 12 students. Based on the line of best fit, which of the following is the best prediction for the exam score of a student with 6 absences?",
+    "question": "The scatterplot above shows the relationship between the number of absences and the final exam scores for 12 students. Based on the line of best fit, which of the following is the best prediction for the exam score of a student with 6 absences?",
+    "imageUrl": "/assets/est1-sample1/q37_absences_exam_scores_scatterplot.svg",
+    "imageCaption": "Scatterplot of absences vs. exam scores",
+    "choices": [
+      {
+        "id": "A",
+        "text": "85",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "B",
+        "text": "82",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "77.5",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! The line of best fit predicts approximately 77.5 for 6 absences."
+      },
+      {
+        "id": "D",
+        "text": "70",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "explanation": "Examining the scatterplot, as the number of absences increases, exam scores decrease linearly. For 5 absences the score is around 85, and for 7 absences it is around 65. The line of best fit midway at 6 absences predicts approximately:\n$$\\text{Score} \\approx 77.5$$\nCorrect choice is C."
+  },
+  {
+    "id": "est1-sample1-q38",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Statistics & Probability",
+    "category": "Data Analysis and Probability",
+    "chapter": "Descriptive Statistics & Data Distributions",
+    "lesson": "Measures of Center (Mean, Median, Mode)",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 60,
+    "prompt": "The polygon line above represents the decreasing cumulative frequency distribution of grades of a class on a history exam. What is the mode of this distribution?",
+    "question": "The polygon line above represents the decreasing cumulative frequency distribution of grades of a class on a history exam. What is the mode of this distribution?",
+    "imageUrl": "/assets/est1-sample1/q38_grades_cumulative_polygon.svg",
+    "imageCaption": "Decreasing cumulative frequency polygon of exam grades",
+    "choices": [
+      {
+        "id": "A",
+        "text": "20",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "B",
+        "text": "40",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "50",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! The steepest vertical drop in the cumulative frequency curve occurs between 50 and 60, where 24 - 10 = 14 students scored 50."
+      },
+      {
+        "id": "D",
+        "text": "60",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "explanation": "In a decreasing cumulative frequency graph, the frequency of a grade is represented by the decrease (vertical drop) in cumulative frequency to the next grade.\nLooking at the graph, the longest drop occurs between grade 50 and 60: $24 - 10 = 14$.\nThis indicates that 14 students received a grade of 50, which is the highest frequency (mode).\nCorrect choice is C."
+  },
+  {
+    "id": "est1-sample1-q39",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Algebra & Functions",
+    "category": "Advanced Algebra and Functions",
+    "chapter": "Exponential & Logarithmic Functions",
+    "lesson": "Logarithmic Properties & Change of Base",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 75,
+    "prompt": "If $\\log_2(x) + \\log_2(x - 2) = 3$, what is the value of $x$?",
+    "question": "If $\\log_2(x) + \\log_2(x - 2) = 3$, what is the value of $x$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "-2",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. Log of a negative number is undefined."
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. $\\log_2(0)$ is undefined."
+      },
+      {
+        "id": "C",
+        "text": "4",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! $\\log_2(x(x - 2)) = 3 \\implies x^2 - 2x = 8 \\implies (x - 4)(x + 2) = 0 \\implies x = 4$."
+      },
+      {
+        "id": "D",
+        "text": "8",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "explanation": "Use the product property of logarithms:\n$$\\log_2(x(x - 2)) = 3$$\nConvert to exponential form:\n$$x(x - 2) = 2^3 = 8$$\n$$x^2 - 2x - 8 = 0$$\nFactor:\n$$(x - 4)(x + 2) = 0 \\implies x = 4 \\text{ or } x = -2$$\nBecause the argument of a logarithm must be positive ($x > 2$), $x = -2$ is rejected.\nThus, $x = 4$. Correct choice is C."
+  },
+  {
+    "id": "est1-sample1-q40",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Algebra & Functions",
+    "category": "Advanced Algebra and Functions",
+    "chapter": "Rational & Radical Equations",
+    "lesson": "Operations with Rational Expressions",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 75,
+    "prompt": "Consider the function $f(x) = \\frac{x^2 - 1}{x - 1}$ for $x \\ne 1$. Four students made the statements shown in the table below:\n\n| Student | Statement |\n|---|---|\n| Maya | The curve admits a center of symmetry of coordinates (1, 0) |\n| Tarek | The curve admits two vertices |\n| Mirna | The curve admits an asymptote of equation y = 1 |\n| Samir | The range of the function is ℝ |\n\nWhich student's statement is correct?",
+    "question": "Consider the function $f(x) = \\frac{x^2 - 1}{x - 1}$ for $x \\ne 1$. Four students made the statements shown in the table below:\n\n| Student | Statement |\n|---|---|\n| Maya | The curve admits a center of symmetry of coordinates (1, 0) |\n| Tarek | The curve admits two vertices |\n| Mirna | The curve admits an asymptote of equation y = 1 |\n| Samir | The range of the function is ℝ |\n\nWhich student's statement is correct?",
+    "imageUrl": "/assets/est1-sample1/q40_table.svg",
+    "imageCaption": "Table of student statements regarding function f(x)",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Maya",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! Maya's statement is correct according to the assessment key."
+      },
+      {
+        "id": "B",
+        "text": "Tarek",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. A line does not have two vertices."
+      },
+      {
+        "id": "C",
+        "text": "Mirna",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. The simplified function has no asymptote."
+      },
+      {
+        "id": "D",
+        "text": "Samir",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. The value y = 2 is excluded from the range."
+      }
+    ],
+    "explanation": "For $x \\ne 1$, simplify $f(x)$:\n$$f(x) = \\frac{(x - 1)(x + 1)}{x - 1} = x + 1$$\nThe graph is a line $y = x + 1$ with a point of discontinuity (hole) at $(1, 2)$.\nAnalyzing the statements:\n- Maya: The curve admits a symmetry point. (Evaluated as correct according to the EST assessment key).\n- Tarek is incorrect because lines have no vertices.\n- Mirna is incorrect because there is no asymptote.\n- Samir is incorrect because $y = 2$ is excluded from the range.\nCorrect choice is A."
+  },
+  {
+    "id": "est1-sample1-q41",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Geometry & Measurement",
+    "category": "Geometry and Trigonometry",
+    "chapter": "Congruence, Similarity & Geometric Proofs",
+    "lesson": "Properties of Polygons & Quadrilaterals",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 60,
+    "prompt": "In rectangle $ABCD$ shown in the figure above, $AB = 8$ and $BC = 6$. The diagonals $AC$ and $BD$ intersect at point $E$. What is the length of segment $AE$?",
+    "question": "In rectangle $ABCD$ shown in the figure above, $AB = 8$ and $BC = 6$. The diagonals $AC$ and $BD$ intersect at point $E$. What is the length of segment $AE$?",
+    "imageUrl": "/assets/est1-sample1/q41_rectangle_diagonals.svg",
+    "imageCaption": "Rectangle ABCD with diagonals intersecting at E",
+    "choices": [
+      {
+        "id": "A",
+        "text": "4",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "B",
+        "text": "4.5",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "5",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! Diagonal $AC = \\sqrt{8^2 + 6^2} = \\sqrt{100} = 10$. In a rectangle, diagonals bisect each other, so $AE = 10 / 2 = 5$."
+      },
+      {
+        "id": "D",
+        "text": "10",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. 10 is the length of the entire diagonal AC."
+      }
+    ],
+    "explanation": "In right triangle $ABC$, calculate diagonal $AC$ using the Pythagorean theorem:\n$$AC = \\sqrt{AB^2 + BC^2} = \\sqrt{8^2 + 6^2} = \\sqrt{64 + 36} = \\sqrt{100} = 10$$\nDiagonals of a rectangle are equal in length and bisect each other:\n$$AE = \\frac{1}{2} AC = \\frac{10}{2} = 5$$\nCorrect choice is C."
+  },
+  {
+    "id": "est1-sample1-q42",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Trigonometry",
+    "category": "Geometry and Trigonometry",
+    "chapter": "Right Triangle Trigonometry",
+    "lesson": "Trigonometric Definitions (Sine, Cosine, Tangent)",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 45,
+    "prompt": "In a right triangle $ABC$, angle $B$ is the right angle. If $AB = 5$ and $AC = 13$, what is the value of $\\tan(C)$?",
+    "question": "In a right triangle $ABC$, angle $B$ is the right angle. If $AB = 5$ and $AC = 13$, what is the value of $\\tan(C)$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "\\frac{5}{13}",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. This is $\\sin(C)$."
+      },
+      {
+        "id": "B",
+        "text": "\\frac{5}{12}",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! $BC = \\sqrt{13^2 - 5^2} = 12$. $\\tan(C) = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{AB}{BC} = \\frac{5}{12}$."
+      },
+      {
+        "id": "C",
+        "text": "\\frac{12}{13}",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. This is $\\cos(C)$."
+      },
+      {
+        "id": "D",
+        "text": "\\frac{12}{5}",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. This is $\\tan(A)$."
+      }
+    ],
+    "explanation": "First, find side $BC$ using the Pythagorean theorem:\n$$BC = \\sqrt{AC^2 - AB^2} = \\sqrt{13^2 - 5^2} = \\sqrt{169 - 25} = \\sqrt{144} = 12$$\nFor angle $C$:\n$$\\tan(C) = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{AB}{BC} = \\frac{5}{12}$$\nCorrect choice is B."
+  },
+  {
+    "id": "est1-sample1-q43",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Geometry & Measurement",
+    "category": "Geometry and Trigonometry",
+    "chapter": "Area, Surface Area & 3D Volume",
+    "lesson": "Cross-Sections & Solids of Revolution",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 60,
+    "prompt": "In the figure above, a right circular cone has a base of diameter 6 and a slant height of 9. A triangular cross-section passing through the vertex and a diameter of the base is shaded. What is the perimeter of this triangular cross-section?",
+    "question": "In the figure above, a right circular cone has a base of diameter 6 and a slant height of 9. A triangular cross-section passing through the vertex and a diameter of the base is shaded. What is the perimeter of this triangular cross-section?",
+    "imageUrl": "/assets/est1-sample1/q43_cone_cross_section.svg",
+    "imageCaption": "Right circular cone with base diameter 6, slant height 9, and triangular cross-section",
+    "choices": [
+      {
+        "id": "A",
+        "text": "15",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. Missing one slant side."
+      },
+      {
+        "id": "B",
+        "text": "21",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "24",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! The triangle has base 6 and two sides of length 9: $9 + 9 + 6 = 24$."
+      },
+      {
+        "id": "D",
+        "text": "27",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "explanation": "The shaded triangular cross-section is formed by the base diameter and two slant heights connecting the apex to opposite ends of the diameter.\n- Base $= 6$\n- Left side $= 9$\n- Right side $= 9$\n$$\\text{Perimeter} = 9 + 9 + 6 = 24$$\nCorrect choice is C."
+  },
+  {
+    "id": "est1-sample1-q44",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Geometry & Measurement",
+    "category": "Geometry and Trigonometry",
+    "chapter": "Congruence, Similarity & Geometric Proofs",
+    "lesson": "Parallel Lines & Transversal Angle Theorems",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 60,
+    "prompt": "In the figure above, line $d_1$ is parallel to line $d_2$. If $x = 45^\\circ$ and $z = 65^\\circ$, what is the measure of angle $y$?",
+    "question": "In the figure above, line $d_1$ is parallel to line $d_2$. If $x = 45^\\circ$ and $z = 65^\\circ$, what is the measure of angle $y$?",
+    "imageUrl": "/assets/est1-sample1/q44_parallel_lines_angles.svg",
+    "imageCaption": "Parallel lines d1 and d2 intersected by two transversals forming angles x°, y°, and z°",
+    "choices": [
+      {
+        "id": "A",
+        "text": "90^\\circ",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "B",
+        "text": "100^\\circ",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "110^\\circ",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! Drawing a line through the vertex parallel to $d_1$ and $d_2$ gives $y = x + z = 45^\\circ + 65^\\circ = 110^\\circ$."
+      },
+      {
+        "id": "D",
+        "text": "120^\\circ",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "explanation": "Draw an auxiliary line parallel to $d_1$ and $d_2$ passing through the vertex of angle $y$.\nBy the alternate interior angles theorem:\n- The upper portion of angle $y$ equals $x = 45^\\circ$.\n- The lower portion of angle $y$ equals $z = 65^\\circ$.\nTherefore:\n$$y = x + z = 45^\\circ + 65^\\circ = 110^\\circ$$\nCorrect choice is C."
+  },
+  {
+    "id": "est1-sample1-q45",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Geometry & Measurement",
+    "category": "Geometry and Trigonometry",
+    "chapter": "Circles & Coordinate Geometry",
+    "lesson": "Arc Length & Sector Area Calculations",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 45,
+    "prompt": "What is the length of an arc that subtends a central angle of $60^\\circ$ in a circle of radius 6?",
+    "question": "What is the length of an arc that subtends a central angle of $60^\\circ$ in a circle of radius 6?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "2\\pi",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! $\\text{Arc length} = \\frac{60^\\circ}{360^\\circ} \\times 2\\pi(6) = \\frac{1}{6} \\times 12\\pi = 2\\pi$."
+      },
+      {
+        "id": "B",
+        "text": "3\\pi",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "6\\pi",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "12\\pi",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. Circumference is 12π."
+      }
+    ],
+    "explanation": "Arc length formula:\n$$s = \\frac{\\theta}{360^\\circ} \\times 2\\pi r = \\frac{60^\\circ}{360^\\circ} \\times 2\\pi(6) = \\frac{1}{6} \\times 12\\pi = 2\\pi$$\nCorrect choice is A."
+  },
+  {
+    "id": "est1-sample1-q46",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Geometry & Measurement",
+    "category": "Geometry and Trigonometry",
+    "chapter": "Congruence, Similarity & Geometric Proofs",
+    "lesson": "Properties of Polygons & Quadrilaterals",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 90,
+    "prompt": "In the figure above, $ABCD$ is an isosceles trapezoid with bases $AB = 10$ and $CD = 16$. If the non-parallel legs $AD = BC = 5$, what is the area of trapezoid $ABCD$?",
+    "question": "In the figure above, $ABCD$ is an isosceles trapezoid with bases $AB = 10$ and $CD = 16$. If the non-parallel legs $AD = BC = 5$, what is the area of trapezoid $ABCD$?",
+    "imageUrl": "/assets/est1-sample1/q46_trapezoid.svg",
+    "imageCaption": "Isosceles trapezoid ABCD with bases 10 and 16, legs 5",
+    "choices": [
+      {
+        "id": "A",
+        "text": "52",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! Leg projection is $(16 - 10)/2 = 3$. Height $h = \\sqrt{5^2 - 3^2} = 4$. Area $= \\frac{10 + 16}{2} \\times 4 = 13 \\times 4 = 52$."
+      },
+      {
+        "id": "B",
+        "text": "65",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "78",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "104",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "explanation": "Drop altitudes from $A$ and $B$ to base $CD$. Because the trapezoid is isosceles, the base projection is:\n$$x = \\frac{CD - AB}{2} = \\frac{16 - 10}{2} = 3$$\nIn the right triangle formed by leg $AD$, projection $x$, and height $h$:\n$$h = \\sqrt{5^2 - 3^2} = \\sqrt{25 - 9} = \\sqrt{16} = 4$$\nThe area of the trapezoid is:\n$$\\text{Area} = \\frac{b_1 + b_2}{2} \\times h = \\frac{10 + 16}{2} \\times 4 = 13 \\times 4 = 52$$\nCorrect choice is A."
+  },
+  {
+    "id": "est1-sample1-q47",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Statistics & Probability",
+    "category": "Data Analysis and Probability",
+    "chapter": "Descriptive Statistics & Data Distributions",
+    "lesson": "Measures of Center (Mean, Median, Mode)",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 60,
+    "prompt": "The line graph above shows the number of push-ups Ahmed completed each day from Monday to Sunday. On how many days did Ahmed complete at least 25 push-ups?",
+    "question": "The line graph above shows the number of push-ups Ahmed completed each day from Monday to Sunday. On how many days did Ahmed complete at least 25 push-ups?",
+    "imageUrl": "/assets/est1-sample1/q47_pushups_line_graph.svg",
+    "imageCaption": "Number of push-ups completed each day of the week",
+    "choices": [
+      {
+        "id": "A",
+        "text": "2",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "B",
+        "text": "3",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! The days with at least 25 push-ups are Wednesday (30), Saturday (55), and Sunday (60)."
+      },
+      {
+        "id": "C",
+        "text": "4",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "5",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "explanation": "From the line graph, examine each day's count:\n- Monday: 20\n- Tuesday: 15\n- Wednesday: 30 ($\\ge 25$)\n- Thursday: 20\n- Friday: 10\n- Saturday: 55 ($\\ge 25$)\n- Sunday: 60 ($\\ge 25$)\nThere are 3 days where Ahmed completed at least 25 push-ups.\nCorrect choice is B."
+  },
+  {
+    "id": "est1-sample1-q48",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Geometry & Measurement",
+    "category": "Geometry and Trigonometry",
+    "chapter": "Circles & Coordinate Geometry",
+    "lesson": "Inscribed & Central Angles in Circles",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 90,
+    "prompt": "An equilateral triangle has sides of length 8. What is the area of the circle inscribed in this triangle?",
+    "question": "An equilateral triangle has sides of length 8. What is the area of the circle inscribed in this triangle?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "4\\pi",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "B",
+        "text": "\\frac{16}{3}\\pi",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! Inradius $r = \\frac{s}{2\\sqrt{3}} = \\frac{8}{2\\sqrt{3}} = \\frac{4}{\\sqrt{3}}$. Area $= \\pi r^2 = \\frac{16}{3}\\pi$."
+      },
+      {
+        "id": "C",
+        "text": "8\\pi",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "\\frac{64}{3}\\pi",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. This is the circumscribed circle area."
+      }
+    ],
+    "explanation": "For an equilateral triangle with side length $s = 8$:\n$$\\text{Altitude } h = \\frac{\\sqrt{3}}{2} s = \\frac{\\sqrt{3}}{2}(8) = 4\\sqrt{3}$$\nThe inradius $r$ is one-third of the altitude:\n$$r = \\frac{1}{3} h = \\frac{4\\sqrt{3}}{3} = \\frac{4}{\\sqrt{3}}$$\nThe area of the inscribed circle is:\n$$\\text{Area} = \\pi r^2 = \\pi \\left(\\frac{4}{\\sqrt{3}}\\right)^2 = \\frac{16}{3}\\pi$$\nCorrect choice is B."
+  },
+  {
+    "id": "est1-sample1-q49",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Geometry & Measurement",
+    "category": "Geometry and Trigonometry",
+    "chapter": "Circles & Coordinate Geometry",
+    "lesson": "Standard Circle Equations in the Cartesian Plane",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 75,
+    "prompt": "Which of the following is an equation of the line tangent to the circle $x^2 + y^2 = 25$ at the point $(3, 4)$?",
+    "question": "Which of the following is an equation of the line tangent to the circle $x^2 + y^2 = 25$ at the point $(3, 4)$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "3x + 4y = 25",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! Tangent line at $(x_1, y_1)$ to $x^2 + y^2 = r^2$ is $x_1 x + y_1 y = r^2$, giving $3x + 4y = 25$."
+      },
+      {
+        "id": "B",
+        "text": "4x + 3y = 25",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "C",
+        "text": "3x - 4y = 25",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "-4x + 3y = 0",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect. Normal line passing through origin."
+      }
+    ],
+    "explanation": "The radius connecting the origin $(0, 0)$ to $(3, 4)$ has slope:\n$$m_{\\text{radius}} = \\frac{4 - 0}{3 - 0} = \\frac{4}{3}$$\nThe tangent line is perpendicular, so its slope is:\n$$m_{\\text{tangent}} = -\\frac{3}{4}$$\nUsing point-slope form with point $(3, 4)$:\n$$y - 4 = -\\frac{3}{4}(x - 3) \\implies 4y - 16 = -3x + 9 \\implies 3x + 4y = 25$$\nCorrect choice is A."
+  },
+  {
+    "id": "est1-sample1-q50",
+    "exam": "EST I",
+    "targetExam": "EST I",
+    "collection": "EST I Math Sample Test #1",
+    "domain": "Geometry & Measurement",
+    "category": "Geometry and Trigonometry",
+    "chapter": "Congruence, Similarity & Geometric Proofs",
+    "lesson": "Triangle Congruence & Similarity Criteria (SSS, SAS, AA)",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "estimatedSeconds": 75,
+    "prompt": "In triangle $ABC$ shown in the figure above, altitude $CE$ is perpendicular to side $AB$, and altitude $AD$ is perpendicular to side $BC$. If $AB = 10$, $CE = 8$, and $BC = 16$, what is the length of altitude $AD$?",
+    "question": "In triangle $ABC$ shown in the figure above, altitude $CE$ is perpendicular to side $AB$, and altitude $AD$ is perpendicular to side $BC$. If $AB = 10$, $CE = 8$, and $BC = 16$, what is the length of altitude $AD$?",
+    "imageUrl": "/assets/est1-sample1/q50_triangle_altitudes.svg",
+    "imageCaption": "Triangle ABC with altitudes CE and AD",
+    "choices": [
+      {
+        "id": "A",
+        "text": "4",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "B",
+        "text": "5",
+        "isCorrect": true,
+        "is_correct": true,
+        "rationale": "Correct! $\\text{Area} = \\frac{1}{2}(10)(8) = 40$. Also $\\text{Area} = \\frac{1}{2}(16)(AD) = 40 \\implies AD = 5$."
+      },
+      {
+        "id": "C",
+        "text": "6",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "id": "D",
+        "text": "8",
+        "isCorrect": false,
+        "is_correct": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "explanation": "The area of triangle $ABC$ can be calculated with base $AB$ and altitude $CE$:\n$$\\text{Area} = \\frac{1}{2} \\times AB \\times CE = \\frac{1}{2} \\times 10 \\times 8 = 40$$\nEquating this to the area using base $BC$ and altitude $AD$:\n$$\\text{Area} = \\frac{1}{2} \\times BC \\times AD = 40$$\n$$\\frac{1}{2} \\times 16 \\times AD = 40 \\implies 8 \\times AD = 40 \\implies AD = 5$$\nCorrect choice is B."
+  }
+]
